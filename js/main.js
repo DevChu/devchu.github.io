@@ -540,6 +540,8 @@ new Vue({
         if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
             this.isMobile = true
         }
+        //auto save
+        window.addEventListener("beforeunload", this.saveData)
     },
     mounted() { this.$nextTick(() => { this.draggableAbilities(), this.draggableGear() })},
   })

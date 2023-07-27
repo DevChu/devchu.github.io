@@ -2086,7 +2086,7 @@ abilities_frosthaven = [
             "points": 68,
             "image": "character-ability-cards/DW/fh-dark-fog.png",
             "xws": "darkfog",
-            "level": 2
+            "level": 1
           },
           {
             "name": "dead bolt",

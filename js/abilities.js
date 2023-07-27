@@ -263,10 +263,21 @@ var abilitiesManagement = {
             this.initRest()
         },
         pickCard: function(card) {
+            let highlightedCard,
+                highlightedIndex = 0;
             if (this.twoAbilitiesSelected.includes(card)) {
                 this.cancelCard(card)
+                highlightedCard = this.twoAbilitiesSelected[0]
             } else if (this.twoAbilitiesSelected.length < 2) {
                 this.twoAbilitiesSelected.push(card)
+                highlightedIndex = this.twoAbilitiesSelected.length - 1;
+                highlightedCard = card;
+            }
+            if (highlightedCard) {
+                // highlight picked cards
+                this.cardsInHand.splice(this.cardsInHand.indexOf(highlightedCard), 1)
+                this.cardsInHand.splice(highlightedIndex, 0, highlightedCard)
+                this.$forceUpdate()
             }
         },
         cancelCard: function(card) {
@@ -360,7 +371,7 @@ var abilitiesManagement = {
         },
         play: function() {
             if (this.twoAbilitiesSelected.length != 2) {
-                if(this.abilitiesChosen.length == 0) {
+                if (this.abilitiesChosen.length == 0) {
                     this.showRedAlert('You need to build you deck in the Abilities section.')
                 } else {
                     this.showRedAlert('You have to select two cards.')

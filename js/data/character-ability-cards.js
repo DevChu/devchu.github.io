@@ -1162,7 +1162,7 @@ abilities_gh2e = [{
                 'expansion': 'gloomhaven2e',
                 'image': 'character-ability-cards/gloomhaven2e/SC2/silentknife-x-backstab.jpg',
                 'xws': 'backstab',
-                'level': 'x',
+                'level': '1',
                 'initiative': '06',
                 'cardno': '011',
                 'character-xws': 'silentknife'
@@ -1173,7 +1173,7 @@ abilities_gh2e = [{
                 'expansion': 'gloomhaven2e',
                 'image': 'character-ability-cards/gloomhaven2e/SC2/silentknife-x-smoke-bomb.jpg',
                 'xws': 'smokebomb',
-                'level': 'x',
+                'level': '1',
                 'initiative': '12',
                 'cardno': '012',
                 'character-xws': 'silentknife'
@@ -1184,7 +1184,7 @@ abilities_gh2e = [{
                 'expansion': 'gloomhaven2e',
                 'image': 'character-ability-cards/gloomhaven2e/SC2/silentknife-x-tricksters-reversal.jpg',
                 'xws': 'trickstersreversal',
-                'level': 'x',
+                'level': '1',
                 'initiative': '09',
                 'cardno': '013',
                 'character-xws': 'silentknife'
@@ -1510,7 +1510,7 @@ abilities_gh2e = [{
                 'expansion': 'gloomhaven2e',
                 'image': 'character-ability-cards/gloomhaven2e/CH2/cragheart-X-burrow.jpg',
                 'xws': 'burrow',
-                'level': 'X',
+                'level': '1',
                 'initiative': '94',
                 'cardno': '015',
                 'character-xws': 'cragheart'
@@ -1521,7 +1521,7 @@ abilities_gh2e = [{
                 'expansion': 'gloomhaven2e',
                 'image': 'character-ability-cards/gloomhaven2e/CH2/cragheart-X-heaving-swing.jpg',
                 'xws': 'heavingswing',
-                'level': 'X',
+                'level': '1',
                 'initiative': '57',
                 'cardno': '013',
                 'character-xws': 'cragheart'
@@ -1532,7 +1532,7 @@ abilities_gh2e = [{
                 'expansion': 'gloomhaven2e',
                 'image': 'character-ability-cards/gloomhaven2e/CH2/cragheart-X-petrify.jpg',
                 'xws': 'petrify',
-                'level': 'X',
+                'level': '1',
                 'initiative': '53',
                 'cardno': '014',
                 'character-xws': 'cragheart'

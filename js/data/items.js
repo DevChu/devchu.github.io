@@ -8,105 +8,105 @@ allItems = [
   },
 {
     'name': 'Winged Shoes',
-    'points': 1,
+    'points': 2,
     'expansion': 'Gloomhaven2e',
     'image': 'items/gh2e/GH2-item-002.jpg',
     'xws': 'wingedshoes'
   },
 {
     'name': 'Hide Armor',
-    'points': 1,
+    'points': 3,
     'expansion': 'Gloomhaven2e',
     'image': 'items/gh2e/GH2-item-003.jpg',
     'xws': 'hidearmor'
   },
 {
     'name': 'Leather Armor',
-    'points': 1,
+    'points': 4,
     'expansion': 'Gloomhaven2e',
     'image': 'items/gh2e/GH2-item-004.jpg',
     'xws': 'leatherarmor'
   },
 {
     'name': 'Scouting Lens',
-    'points': 1,
+    'points': 5,
     'expansion': 'Gloomhaven2e',
     'image': 'items/gh2e/GH2-item-005.jpg',
     'xws': 'scoutinglens'
   },
 {
     'name': 'Amulet of Life',
-    'points': 1,
+    'points': 6,
     'expansion': 'Gloomhaven2e',
     'image': 'items/gh2e/GH2-item-006.jpg',
     'xws': 'amuletoflife'
   },
 {
     'name': 'Poison Dagger',
-    'points': 1,
+    'points': 7,
     'expansion': 'Gloomhaven2e',
     'image': 'items/gh2e/GH2-item-007.jpg',
     'xws': 'poisondagger'
   },
 {
     'name': 'Heater Shield',
-    'points': 1,
+    'points': 8,
     'expansion': 'Gloomhaven2e',
     'image': 'items/gh2e/GH2-item-008.jpg',
     'xws': 'heatershield'
   },
 {
     'name': 'Focusing Rod',
-    'points': 1,
+    'points': 9,
     'expansion': 'Gloomhaven2e',
     'image': 'items/gh2e/GH2-item-009.jpg',
     'xws': 'focusingrod'
   },
 {
     'name': 'Simple Bow',
-    'points': 1,
+    'points': 10,
     'expansion': 'Gloomhaven2e',
     'image': 'items/gh2e/GH2-item-010.jpg',
     'xws': 'simplebow'
   },
 {
     'name': 'Healing Potion',
-    'points': 1,
+    'points': 11,
     'expansion': 'Gloomhaven2e',
     'image': 'items/gh2e/GH2-item-011.jpg',
     'xws': 'healingpotion'
   },
 {
     'name': 'Stamina Potion',
-    'points': 1,
+    'points': 12,
     'expansion': 'Gloomhaven2e',
     'image': 'items/gh2e/GH2-item-012.jpg',
     'xws': 'staminapotion'
   },
 {
     'name': 'Element Potion',
-    'points': 1,
+    'points': 13,
     'expansion': 'Gloomhaven2e',
     'image': 'items/gh2e/GH2-item-013.jpg',
     'xws': 'elementpotion'
   },
 {
     'name': 'Studded Leather',
-    'points': 1,
+    'points': 14,
     'expansion': 'Gloomhaven2e',
     'image': 'items/gh2e/GH2-item-014.jpg',
     'xws': 'studdedleather'
   },
 {
     'name': 'Comfortable Shoes',
-    'points': 1,
+    'points': 15,
     'expansion': 'Gloomhaven2e',
     'image': 'items/gh2e/GH2-item-015.jpg',
     'xws': 'comfortableshoes'
   },
 {
     'name': 'Circlet of Elements',
-    'points': 1,
+    'points': 16,
     'expansion': 'Gloomhaven2e',
     'image': 'items/gh2e/GH2-item-016.jpg',
     'xws': 'circletofelements'

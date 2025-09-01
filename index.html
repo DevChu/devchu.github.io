@@ -345,7 +345,7 @@
               <div v-if="hasEnabledCurses" class="row no-gutters" style="padding-left: 0.3em;">
                 <div class="col-auto">
                   <button v-on:click="addBlessing()" class="btn btn-sm" style="outline: none; box-shadow: none;">
-                    <img v-bind:src="'data/attack-modifiers/base/player-mod/am-pm-01.png'" class="smallimage rounded" />
+                    <img v-bind:src="'data/attack-modifiers/base/player-mod/am-pm-11.png'" class="smallimage rounded" />
                     <div v-if="blessings > 0" class="onCardNoHover">
                       <h2> {{ blessings }}</h2>
                     </div>
@@ -356,7 +356,7 @@
                 </div>
                 <div class="col-auto">
                   <button v-on:click="addCurse()" class="btn btn-sm" style="outline: none; box-shadow: none;" w>
-                    <img v-bind:src="'data/attack-modifiers/base/player-mod/am-pm-21.png'" class="smallimage rounded" />
+                    <img v-bind:src="'data/attack-modifiers/base/player-mod/am-pm-01.png'" class="smallimage rounded" />
                     <div v-if="curses > 0" class="onCardNoHover">
                       <h2>{{ curses }}</h2>
                     </div>
@@ -937,8 +937,8 @@
             <hr />
             <h3>Options</h3>
             <ul class="container">
-              <li>Set expansion : Access to new classes</li>
-              <li>Accept card : Display a button to add a card from another class to your hand</li>
+              <!-- <li>Set expansion : Access to new classes</li> -->
+              <!-- <li>Accept card : Display a button to add a card from another class to your hand</li> -->
               <li>Sort modifiers : Display a button to sort the first X modifiers of your draw pile</li>
               <li>Quick curse : Display buttons to add a curse or a blessing to your modifiers draw pile</li>
               <li>Gameplay data saving : Toggle the saving of the state of your board (abilities, modifiers, gear and
@@ -964,7 +964,7 @@
           </div>
           <div class="modal-body">
             <p>This is only a picture to remind you which perks are available for your class </p>
-            <img v-if="abilityCategory != null" style="width: 100%" :src="'data/perks/'+abilityCategory.name+'.png'" />
+            <img v-if="abilityCategory != null" style="width: 100%" :src="'data/perks/'+abilityCategory.name+'.jpg'" />
           </div>
 
           <div class="modal-footer">

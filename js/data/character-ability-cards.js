@@ -365,7 +365,7 @@ abilities_gh2e = [{
                 "name": "ti-back",
                 "points": 552,
                 "expansion": "gloomhaven2e",
-                "image": "character-ability-cards/gloomhaven2e/TI2/ti-back.png",
+                "image": "character-ability-cards/gloomhaven2e/TI2/ti-back.jpg",
                 "xws": "tiback",
                 "level": "-",
                 "initiative": "-",
